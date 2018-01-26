@@ -1,0 +1,66 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// FORVM variables
+$base-font-family: "ltc-bodoni-175", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 2;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+// $site-color:       #FFFFF3;
+$site-color:       white;
+
+// Width of the content area
+$content-width:    800px;
+$on-palm:          600px;
+$on-laptop:        800px;
+
+.site-nav {
+  display: none;
+}
+
+// Apply Flex box centering to title
+.site-header .wrapper {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid $grey-color-light;
+}
+
+.site-footer .wrapper {
+    border-top: 1px solid $grey-color-light;
+    padding-top: 30px;
+}
+
+// Drop Cap (experimental)
+.drop-cap {
+  font-size: 4em;
+  float: left;
+  line-height: 1.1;
+  padding: 0 .2em 0 0;
+  margin: 0 0 -.2em;
+  display: block;
+}
+
+// Minima also includes a mixin for defining media queries.
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+// Import partials from the `minima` theme.
+@import "minima";
