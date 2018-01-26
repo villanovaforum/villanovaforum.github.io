@@ -19,8 +19,8 @@ email: villanovaforum@villanova.com
 description: "Forum is a student-run, scholarly magazine that promotes respectful and intellectual dialogue among Villanova students, faculty, and staff."
 categories: ""
 
-baseurl: "/FOVM.github.io" # the subpath of your site, e.g. /blog
-url: "https://forvm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://villanovaforum.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: VillanovaForum
 # github_username:  jekyll
 facebook_url: https://www.facebook.com/Forum-at-Villanova-University-1478738105743186/
