@@ -15,7 +15,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: FORVM
-email: villanovaforum@villanova.com
+email: villanovaforum@gmail.com
 description: "Forum is a student-run, scholarly magazine that promotes respectful and intellectual dialogue among Villanova students, faculty, and staff."
 categories: ""
 
